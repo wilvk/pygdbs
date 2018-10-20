@@ -15,3 +15,19 @@
 to start the dev server `bin/dev-up`
 
 to run the tests `bin/run-tests`
+
+
+## tests from host:
+
+make sure nose is installed:
+
+`pip install --user nose`
+
+then:
+
+```
+cd tests
+
+nosetests
+
+```
